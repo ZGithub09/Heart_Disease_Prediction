@@ -116,3 +116,8 @@ between 0 and 1.
   *  Monitoring and managing cholesterol, blood pressure, and exercise-induced ST depression can be effective preventative measures.
 
   *  Utilizing predictive models like Random Forest and Decision Tree can help in early detection and timely intervention for heart disease, potentially improving patient outcomes.
+
+## Power BI Dashboard Overview
+
+![image](https://github.com/user-attachments/assets/d9dde698-4605-4f71-b197-386c6d3f20e4)
+
