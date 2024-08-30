@@ -39,27 +39,35 @@ The dataset contains 14 features and a binary target variable indicating the pre
 
 1. Missing Values: There are no missing values in the dataset. 
 
-2. Summary Statistics: 
+2. Summary Statistics:
+
 ‣ The dataset has a mix of categorical (e.g., sex, cp, fbs, etc.) and continuous  variables
-(e.g., age, trestbps, chol, etc.). 
+(e.g., age, trestbps, chol, etc.).
+
 ‣ The values in the columns seem to be within reasonable ranges, but some columns like
 ca (number of major vessels colored by fluoroscopy) have values up to 4.
 
-3. Target Variable Distribution: 
-‣ 0 (absence of heart disease): 499 samples 
+3. Target Variable Distribution:
+   
+‣ 0 (absence of heart disease): 499 samples
+
 ‣ 1 (presence of heart disease): 526 samples 
+
 ‣ The dataset is relatively balanced between the two classes.
 
 ### Exploratory Data Analysis
 ![image](https://github.com/user-attachments/assets/1c3abbc8-72cd-4b9b-bc8a-249e1ce43413)
+
 ‣ The graph indicates the distribution of sex in the dataset: there are 713 males (69.6%) and 312 females (30.4%).
 
 ![age (2)](https://github.com/user-attachments/assets/825d9a7e-0c81-48ba-9601-913197691958)
+
 ‣  The graph indicates the distribution of age groups in the dataset: there are individuals 6.6% in the 'Younger' group, individuals 66.8% in the 'Middle' group, and individuals 26.5% in the 'Older' group.
 
 ![target](https://github.com/user-attachments/assets/9d41ba67-c596-4fa0-b4b0-3c673eb03e83)
 
 ![image](https://github.com/user-attachments/assets/8695e8d2-06cc-4efa-8413-422238a09cc2)
+
 The distributions of the continuous variables show that:
 
 ‣ Age has a normal distribution, with most patients between 50 and 60 years old.
@@ -76,13 +84,17 @@ between 0 and 1.
 ![image](https://github.com/user-attachments/assets/704f11c0-67ce-4d5d-8c6f-6749e4efd455)
 
 ![image](https://github.com/user-attachments/assets/1c234afb-0954-467a-b566-1bca7adb4f30)
+
 ### Younger (Age < 40):
+
 ‣ Among the younger individuals, those without heart disease (target = 0) are more prevalent compared to those with heart disease (target = 1).
 
 ### Middle-aged (Age ≤ 60):
+
 ‣ There is a significant presence of heart disease (target = 1) in the middle-aged group, especially in the 50-60 age range. 
 
 ### Older (Age > 60):
+
 ‣ There is a noticeable number of older individuals with heart disease (target = 1), indicating that heart disease prevalence increases with age.
 
 ![correlation](https://github.com/user-attachments/assets/d131e95f-2cef-4ae4-beaf-62f5bb25a639)
